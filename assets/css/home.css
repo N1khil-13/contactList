@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* #contact-body {
+    border: 1px solid black;
+} */
+
+#page-heading {
+    text-align: center;
+    margin-top: 30px;
+    color: darkgray
+}
+
+.contact-list-container {
+    width: 25%;
+    margin: auto;
+    /* width: fit-content; */
+    /* width: 25% ; */
+    height: auto;
+}
+
+#add-contact {
+    text-align: center;
+    /* margin: 0px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding: 2px; */
+    margin-top: 5px;
+}
+
+li.contacts {
+    display: inline;
+    width: fit-content;
+    /* background-color: whitesmoke; */
+    /* background-color: aliceblue; */
+}
+
+i {
+    color: lightblue;
+    margin-top: 2px;
+}
+
+
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    /* width: fit-content; */
+    /* margin-right: 13%; */
+    width: 100%;
+    background-color: lightblue;
+    margin-bottom: 1px;
+    /* padding-top: -10px; */
+    /* padding-bottom: -10px; */
+    height: 40px;
+    border-radius: 2px;
+    padding-left: 2px;
+    /* padding-right: 2px; */
+
+}
+
+
+.details:hover {
+    color: white;
+    background-color: darkslategrey;
+    cursor: pointer;
+    /* width: 20em; */
+}
+
+ul {
+    margin: auto;
+    display: inline;
+    /* width: 100%; */
+}
